@@ -1,52 +1,38 @@
 # ❤️ Heart Disease Prediction Model  
-> **Machine Learning Project for Early Detection of Heart Disease**
+> *A Machine Learning Project for Early Detection of Cardiovascular Diseases*
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-orange?logo=scikit-learn)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Scikit-learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?logo=scikit-learn)
+![Pandas](https://img.shields.io/badge/Data%20Analysis-Pandas%20%7C%20NumPy-green?logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-yellow)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
-## 🧠 Overview
+## 🧠 Project Overview
 
-The **Heart Disease Prediction Model** is a **machine learning project** designed to predict whether a person is likely to have heart disease based on key medical attributes.  
-It leverages **data analysis**, **feature engineering**, and **classification algorithms** to help in **early detection** and **decision support**.
+This project focuses on predicting **Heart Disease** using multiple **machine learning models** trained on medical data.  
+By analyzing patient attributes such as **age, cholesterol, blood pressure, heart rate**, and more, the models learn to classify whether a person is at risk of heart disease.
 
-This project demonstrates a complete **end-to-end ML workflow**:
-- Data Cleaning & Preprocessing  
+The project demonstrates a **complete ML workflow**, including:
+- Data loading and cleaning  
 - Exploratory Data Analysis (EDA)  
-- Model Training and Evaluation  
-- Performance Visualization  
-- Making Predictions on New Data  
+- Feature engineering  
+- Model training with multiple algorithms  
+- Model comparison and evaluation  
+- Prediction on new unseen data  
 
 ---
 
-## 🎯 Project Goals
+## 🎯 Objective
 
-- Analyze patient health records using data science tools  
-- Train ML models to classify heart disease presence  
-- Evaluate model performance with robust metrics  
-- Demonstrate practical healthcare data analysis with Python  
+> To build and compare multiple machine learning models to accurately predict the likelihood of heart disease.
 
----
-
-## 🧾 Dataset Description
-
-The dataset contains medical information about patients such as:
-- **Age**
-- **Gender**
-- **Chest Pain Type**
-- **Blood Pressure**
-- **Cholesterol**
-- **Resting ECG Results**
-- **Max Heart Rate Achieved**
-- **Exercise Induced Angina**
-- **ST Depression**
-- **Target (Presence of Heart Disease: 1 = Yes, 0 = No)**
-
-📊 *Dataset Source:* [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease) or similar open-source dataset used for analysis.
+Key Goals:
+- Apply data preprocessing techniques  
+- Train and evaluate multiple ML algorithms  
+- Identify the best-performing model  
+- Provide a reproducible workflow for medical prediction problems  
 
 ---
 
@@ -55,10 +41,10 @@ The dataset contains medical information about patients such as:
 | Category | Tools / Libraries |
 |-----------|------------------|
 | Programming Language | **Python 3.x** |
-| Data Processing | **Pandas**, **NumPy** |
-| Machine Learning | **Scikit-learn**, **Logistic Regression**, **Random Forest**, **Decision Tree** |
+| Data Analysis | **Pandas**, **NumPy** |
 | Data Visualization | **Matplotlib**, **Seaborn** |
-| Development | **Jupyter Notebook**, **VS Code** |
+| Machine Learning | **Scikit-learn**, **KNN**, **SVM**, **DecisionTree**, **RandomForest**, **LogisticRegression** |
+| Development Environment | **Jupyter Notebook**, **VS Code** |
 
 ---
 
