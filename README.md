@@ -64,6 +64,31 @@ The dataset contains medical information about patients such as:
 
 ---
 
-## 📂 Project Structure
+## 🚀 How to Run / Use This Repository
+
+Follow these steps to set up and run the examples:
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Sahil-Shrivas/HeartDisease-Model.git
+   cd HeartDisease-Model
+
+2. **Create and activate a virtual environment (optional)**
+   ```bash
+   python -m venv venv
+   # Activate
+   # Windows:
+   venv\Scripts\activate
+   # macOS/Linux:
+   source venv/bin/activate
+
+3. **Install dependencies:**
+    ```bash
+   pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+
+4. **Run Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+
 
 
