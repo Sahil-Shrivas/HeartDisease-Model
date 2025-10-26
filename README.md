@@ -36,6 +36,22 @@ Key Goals:
 
 ---
 
+## 🧾 Dataset Description
+
+The dataset contains medical information about patients such as:
+- **Age**
+- **Gender**
+- **Chest Pain Type**
+- **Blood Pressure**
+- **Cholesterol**
+- **Resting ECG Results**
+- **Max Heart Rate Achieved**
+- **Exercise Induced Angina**
+- **ST Depression**
+- **Target (Presence of Heart Disease: 1 = Yes, 0 = No)**
+
+---
+
 ## ⚙️ Technologies & Libraries Used
 
 | Category | Tools / Libraries |
@@ -49,4 +65,5 @@ Key Goals:
 ---
 
 ## 📂 Project Structure
+
 
